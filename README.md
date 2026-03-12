@@ -1,4 +1,4 @@
-# PCB-Design-proteus
+# PCB-Design-proteus :The system detects the presence or proximity of an object using the optical sensor and triggers a response through a servo motor and LED indicator.
 
 Embedded System PCB Design (Arduino Based)
 
