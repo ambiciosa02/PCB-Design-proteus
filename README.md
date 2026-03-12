@@ -103,3 +103,50 @@ The repository includes the following design views:
 🧭 PCB Layout – routing and component placement
 
 🧊 3D PCB View – realistic visualization of the final board
+
+The system detects the presence or proximity of an object using the optical sensor and triggers a response through a servo motor and LED indicator.
+
+🔎 Detection
+
+The CNY70 optical sensor emits infrared light.
+
+When an object or surface reflects this light back, the sensor detects it.
+
+The signal is then read by the microcontroller (via the Arduino interface).
+
+🧠 Processing
+
+The microcontroller processes the sensor signal.
+
+Based on the programmed logic, it decides whether an object is detected or not.
+
+⚡ Actuation
+
+When detection occurs:
+
+⚙️ The servo motor moves to a specific position.
+
+🔴 The LED lights up as a visual indicator.
+
+🔋 Power
+
+The system is powered through a battery connector.
+
+📊 Example Real-World Behaviors
+
+This simple architecture can represent several real embedded applications:
+
+🚗 Automatic barrier gate (servo opens when a car is detected)
+
+📦 Object detection system
+
+🏭 Industrial presence sensor
+
+🤖 Line-following robot sensor module
+
+🚪 Automatic door mechanism
+
+🧩 System Architecture
+
+
+This PCB implements a sensor-based embedded control system that detects objects and triggers mechanical movement and visual indication.
